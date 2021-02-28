@@ -31,7 +31,7 @@ public class Main {
 
         for (User u : users) {
             if (u.getId() % 2 == 0) {
-                System.out.println("Парное ID в " + u);
+                System.out.println("Парное ID y " + u);
             }
         }
 
