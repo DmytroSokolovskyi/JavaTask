@@ -46,7 +46,7 @@ public class MainController {
         userService.updateAll(id, name, img, resume);
     }
 
-    @RequestMapping("/img/{id}")
+    @GetMapping("/img/{id}")
     public String getImage(@PathVariable int id) {
 
         String userPic = userService.getImage(id).getImg();
